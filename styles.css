@@ -1,3 +1,31 @@
+body {
+    background-color: steelblue;
+}
+
 .hero {
-    background-image: url('./images/4dcoach-hero.svg');
+    background-image: url('./images/4dcoachbg.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 10vw;
+}
+
+
+.nav-link {
+    margin-left: 70px;
+}
+
+.about {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./images/contact.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
