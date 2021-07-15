@@ -1,11 +1,18 @@
+* {
+    box-sizing: border-box;
+ 
+}
+
 body {
-    background-color: steelblue;
+    margin: 0;
+    padding: 0;
+    background-color: black;
 }
 
 .hero {
     background-image: url('./images/4dcoachbg.svg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 100vh;
     overflow: hidden;
 }
